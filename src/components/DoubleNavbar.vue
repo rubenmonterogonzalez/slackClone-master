@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar w-full float-right flex ml-auto border-b-2 border-gray h-14">
+  <div class="navbar w-full float-right flex ml-auto border-b-2 border-gray h-12">
     <div class="flex-1 flex pt-3 ml-72 ">
       <a href="#" class="contents">
         <span class="text-gray-800 text-lg font-bold">David Bootle, Edy Ragnoli</span>
@@ -17,12 +17,11 @@
         </svg>
       </a>
     </div>
-
     <div class="flex-1 flex">
       <div class="relative inline-block ml-auto mt-1 mr-4">
         <button
           id="nav-toggle"
-          class="ml-2"
+          class="ml-2 mr-4 mt-2"
           aria-haspopup="true"
           aria-expanded="false"
           aria-controls="menu"
@@ -67,7 +66,7 @@
   <div class="navbar flex h-10 w-full float-right ml-auto border-b-1 shadow-md border-gray">
     <a class="contents" href=""><svg
       xmlns="http://www.w3.org/2000/svg"
-      class="h-6 w-6 ml-72 mt-3"
+      class="h-5 w-5 ml-72 mt-3"
       fill="none"
       viewBox="0 0 24 24"
       stroke="gray"
@@ -79,7 +78,7 @@
         d="M12 6v6m0 0v6m0-6h6m-6 0H6"
       />
     </svg>
-    <span class="text-gray-500 mt-3">Add a bookmark</span>
+    <span class="text-sm text-gray-500 mt-3">Add a bookmark</span>
     </a>
   </div>
 </template>

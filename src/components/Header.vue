@@ -523,8 +523,6 @@ export default {
   text-align: center;
   border-radius: 6px;
   padding: 5px 5px;
-
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
   top: 100%;

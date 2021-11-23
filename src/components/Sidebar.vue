@@ -253,7 +253,7 @@
           </svg>
         </a>
       </div>
-      <div class="overflow-y-scroll">
+      <div class="overflow-y-scroll overscroll-y-auto overflow-x-hidden">
         <div class="md:block pb-4 md:pb-0">
           <a
             class="
@@ -574,810 +574,951 @@
                     d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
                   />
                 </svg>
-                <span class="ml-2">People & user groups</span>
+                <span class="ml-2 mr-auto">People & user groups</span>
                 <span class="text-gray-500 hover:text-white">Ctrl+Shift+E</span>
               </a>
             </div>
-            <div class="">
+            <div class="pb-2">
               <a
-                href="#"
                 class="
+                  flex
                   block
                   px-4
-                  pb-3
-                  pt-3
-                  text-sm text-gray-700
+                  pb-1
+                  text-base text-gray-700
                   hover:bg-blue-500 hover:text-white
                 "
+                href="#"
               >
-              </a>
-            </div>
-
-            <a
-              href="#"
-              class="
-                block
-                px-4
-                pb-1
-                pt-3
-                text-base text-gray-700
-                hover:bg-blue-500 hover:text-white
-              "
-            >
-              Invite people to NGP
-            </a>
-            <a
-              href="#"
-              class="
-                block
-                px-4
-                pb-3
-                text-base text-gray-700
-                hover:bg-blue-500 hover:text-white
-                border-b-2 border-gray
-              "
-            >
-              Create a channel
-            </a>
-            <a
-              href="#"
-              class="
-                block
-                px-4
-                pb-1
-                pt-3
-                text-base text-gray-700
-                hover:bg-blue-500 hover:text-white
-              "
-            >
-              Preferences
-            </a>
-            <a
-              href="#"
-              class="
-                block
-                px-4
-                pb-3
-                text-base text-gray-700
-                hover:bg-blue-500 hover:text-white
-                border-b-2 border-gray
-              "
-              >Customize NGP
-            </a>
-            <div class="border-b-2 border-gray">
-              <a
-                href="#"
-                class="
-                  flex
-                  justify-between
-                  py-2
-                  px-4
-                  text-base text-gray-700
-                  hover:bg-blue-500 hover:text-white
-                "
-                >Tools
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-3 w-3 mt-2 hover:text-white"
+                  class="h-5 w-5 pt-1"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="gray"
+                  stroke="currentColor"
                 >
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M9 5l7 7-7 7"
+                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
                   />
                 </svg>
+                <span class="ml-2 mr-auto">Apps</span>
               </a>
             </div>
-            <a
-              href="#"
-              class="
-                block
-                px-4
-                pt-2
-                pb-2
-                text-base text-gray-700
-                hover:bg-blue-500 hover:text-white
-                border-b-2 border-gray
-              "
-              >Sign out of NGP</a
-            >
-            <div class="border-b-2 border-gray">
+            <div class="border-t-2 border-gray py-2">
               <a
                 href="#"
                 class="
                   flex
-                  justify-between
-                  py-2
+                  block
                   px-4
-                  text-base text-gray-700
+                  pb-1
+                  ml-1
+                  text-xs text-gray-700
                   hover:bg-blue-500 hover:text-white
                 "
-                >Add workspaces
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-3 w-3 mt-2 hover:text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="gray"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
+                >Customize this list in your
+                <pre></pre>
+                <span class="text-blue-500 font-bold">preferences</span>
               </a>
             </div>
           </div>
         </div>
         <div class="flex-grow md:block pb-4 md:pb-0">
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-2
-              mt-3
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-1 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M19 9l-7 7-7-7"
-              /></svg
-            >Channels
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >a_food_desire
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >clearvue-dev-site
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >clearvue-site-launch
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >COP26_2021_white-paper
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
-              /></svg
-            >general
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >general-marketing
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >marketing
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >marketing-malta
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >proj-webpage-building
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
-              /></svg
-            >public-websites-migration
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-3 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              /></svg
-            >tech-malta-devs
-          </a>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 ml-2 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-              /></svg
-            >Add channels
-          </a>
-        </div>
-        <div class="flex-grow md:block mt-3 pb-4 md:pb-0">
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-2
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4 ml-1 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M19 9l-7 7-7-7"
-              /></svg
-            >Direct messages
-          </a>
-          <div class="hover:bg-pink-900 cursor-pointer">
+          <div class="channels">
             <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
+              @click="dropdownOpen3 = !dropdownOpen3"
+              class="
+                flex
+                block
+                px-4
+                py-2
+                mt-3
+                text-sm
+                font-semibold
+                text-gray-300
+              "
               href="#"
             >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1 mr-2 mt-0.5 hover:bg-pink-900"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-              <span
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                /></svg
+              >Channels
+              <div class="channel_icons inline-flex ml-auto">
+                <button class="tooltip">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 hover:bg-pink-900"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+                  />
+                </svg>
+                <span class="tooltiptext text-sm">Section options</span>
+                </button>
+                <button class="tooltip">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 hover:bg-pink-900"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                  />
+                </svg>
+                <span class="tooltiptext text-sm">Add channels</span>
+
+                </button>
+              </div>
+            </a>
+          </div>
+          <div v-show="dropdownOpen3" class="">
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >a_food_desire
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >clearvue-dev-site
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >clearvue-site-launch
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >COP26_2021_white-paper
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
+                /></svg
+              >general
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >general-marketing
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >marketing
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >marketing-malta
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >proj-webpage-building
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
+                /></svg
+              >public-websites-migration
+            </a>
+            <a
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-3 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                /></svg
+              >tech-malta-devs
+            </a>
+            <a
+              @click="dropdownOpen5 = !dropdownOpen5"
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 -mt-0.5 ml-2 mr-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                /></svg
+              >Add channels
+            </a>
+          </div>
+        </div>
+        <div
+            v-show="dropdownOpen5"
+            class="
+              absolute
+              w-52
+              left-14
+              rounded-lg
+              bg-white
+              z-20
+            "
+          >
+            <div class="">
+              <a
                 class="
-                  inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  flex
+                  block
+                  px-4
+                  mt-3
+                  pb-1
+                  text-base text-gray-700
+                  hover:bg-blue-500 hover:text-white
                 "
-              ></span>
-              <p
+                href="#"
+              >
+                <span class="ml-2">Create a new channel</span>
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="
+                  flex
+                  block
+                  px-4
+                  mb-3
+                  pb-1
+                  text-base text-gray-700
+                  hover:bg-blue-500 hover:text-white
+                "
+                href="#"
+              >
+                <span class="ml-2">Browse all channels</span>
+              </a>
+            </div>
+            </div>
+        <div class="flex-grow md:block mt-3 pb-4 md:pb-0">
+          <div class="channels">
+            <a
+              @click="dropdownOpen4 = !dropdownOpen4"
+              class="flex block px-4 py-2 text-sm font-semibold text-gray-300"
+              href="#"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1 mr-2 mt-0.5 hover:bg-pink-900"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                /></svg
+              >Direct messages
+              <div class="channel_icons inline-flex ml-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 hover:bg-pink-900"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 hover:bg-pink-900"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+          <div v-show="dropdownOpen4">
+            <div
+              v-show="dropdownOpen4"
+              class="hover:bg-pink-900 cursor-pointer"
+            >
+              <a
                 class="
                   inline-block
+                  pl-7
+                  py-1
                   text-sm
                   font-semibold
                   text-gray-300
-                  hover:bg-pink-900
                 "
+                href="#"
               >
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+                <p
+                  class="
+                    inline-block
+                    text-sm
+                    font-semibold
+                    text-gray-300
+                    hover:bg-pink-900
+                  "
+                >
+                  Ruben Montero
+                </p>
+              </a>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
+                class="
+                  inline-block
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
+                "
+                href="#"
+              >
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
                 Ruben Montero
               </p>
-            </a>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
-              >
-              <span
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
-            <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
-              href="#"
-            >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                href="#"
               >
-              <span
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
+            <div class="hover:bg-pink-900 cursor-pointer">
+              <a
                 class="
                   inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
+                  pl-7
+                  py-1
+                  text-sm
+                  font-semibold
+                  text-gray-300
                 "
-              ></span>
-            </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
-          </div>
-          <div class="hover:bg-pink-900 cursor-pointer">
+                href="#"
+              >
+                <span class="inline-block w-5 h-5 rounded bg-red-500"
+                  ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+                >
+                <span
+                  class="
+                    inline-block
+                    w-2
+                    h-2
+                    bg-green-600
+                    border-2 border-transparent
+                    rounded-full
+                  "
+                ></span>
+              </a>
+              <p class="inline-block text-sm font-semibold text-gray-300">
+                Ruben Montero
+              </p>
+            </div>
             <a
-              class="inline-block pl-6 py-1 text-sm font-semibold text-gray-300"
+              @click="dropdownOpen6 = !dropdownOpen6"
+              class="
+                flex
+                block
+                px-4
+                py-1
+                text-sm
+                font-semibold
+                text-gray-300
+                hover:bg-pink-900
+              "
               href="#"
             >
-              <span class="inline-block w-5 h-5 rounded bg-red-500"
-                ><h5 class="text-xs text-white ml-1.5 mt-0.5">R</h5></span
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 -mt-0.5 ml-2 mr-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-              <span
-                class="
-                  inline-block
-                  w-2
-                  h-2
-                  bg-green-600
-                  border-2 border-transparent
-                  rounded-full
-                "
-              ></span>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                /></svg
+              >Add teammates
             </a>
-            <p class="inline-block text-sm font-semibold text-gray-300">
-              Ruben Montero
-            </p>
           </div>
-          <a
-            class="
-              flex
-              block
-              px-4
-              py-1
-              text-sm
-              font-semibold
-              text-gray-300
-              hover:bg-pink-900
-            "
-            href="#"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 ml-2 mr-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-              /></svg
-            >Add teammates
-          </a>
         </div>
+        <div
+            v-show="dropdownOpen6"
+            class="
+              absolute
+              w-52
+              left-14
+              rounded-lg
+              bg-white
+              z-20
+            "
+          >
+            <div class="">
+              <a
+                class="
+                  flex
+                  block
+                  px-4
+                  mt-3
+                  pb-1
+                  text-base text-gray-700
+                  hover:bg-blue-500 hover:text-white
+                "
+                href="#"
+              >
+                <span class="ml-2">Invite people</span>
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="
+                  flex
+                  block
+                  px-4
+                  mb-3
+                  pb-1
+                  text-base text-gray-700
+                  hover:bg-blue-500 hover:text-white
+                "
+                href="#"
+              >
+                <span class="ml-2">New conversation</span>
+              </a>
+            </div>
+            </div>
         <div class="h-12"></div>
       </div>
       <div
@@ -1475,10 +1616,21 @@ export default {
   setup() {
     const dropdownOpen = ref(false);
     const dropdownOpen2 = ref(false);
+    const dropdownOpen3 = ref(false);
+    const dropdownOpen4 = ref(false);
+    const dropdownOpen5 = ref(false);
+    const dropdownOpen6 = ref(false);
+
+
 
     return {
       dropdownOpen,
       dropdownOpen2,
+      dropdownOpen3,
+      dropdownOpen4,
+      dropdownOpen5,
+      dropdownOpen6,
+
     };
   },
 };
@@ -1496,8 +1648,35 @@ export default {
 .overflow-y-scroll {
   height: 85vh;
 }
-
 .hover_text:hover > a {
   color: white;
+}
+.channels .channel_icons svg {
+  visibility: hidden;
+}
+.channels:hover .channel_icons svg {
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 9999;
+  bottom: 100%;
+  left: 14%;
+  margin-left: -60px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 </style>
