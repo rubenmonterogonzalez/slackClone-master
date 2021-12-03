@@ -1,34 +1,34 @@
 <template>
-  <div class="navbar flex">
-    <div class="flex w-1/4">
-      <div class="w-12 text-center">
-        <div class="hover:bg-pink-900 active:bg-transparent">
-        <button
-          @click="dropdownOpen = !dropdownOpen"
-          id="nav-toggle"
-          class="text-first cursor-pointer "
-          aria-haspopup="true"
-          aria-expanded="false"
-          aria-controls="menu"
-          aria-label="Navigation"
-          data-dropdown-toggle="dropdown"
-          type="submit"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 mt-2"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="white"
+  <div class="navbar w-screen justify-between flex">
+    <div class="flex sm:w-1/4 w-2">
+      <div class="text-center">
+        <div class="hover:bg-pink-900 active:bg-transparent pl-2 pr-2">
+          <button
+            @click="dropdownOpen = !dropdownOpen"
+            id="nav-toggle"
+            class="text-first cursor-pointer"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="menu"
+            aria-label="Navigation"
+            data-dropdown-toggle="dropdown"
+            type="submit"
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mt-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="white"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
         <div
           v-show="dropdownOpen"
@@ -78,87 +78,87 @@
           </a>
         </div>
       </div>
-      <div class="w-80"></div>
-      <div class="contents w-12">
-      <button
-        id="nav-toggle"
-        class="tooltip w-12 pl-2 hover:bg-pink-900"
-        aria-haspopup="true"
-        aria-expanded="false"
-        aria-controls="menu"
-        aria-label="Navigation"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="white"
+      <div class="md:w-80"></div>
+      <div class="sm:contents w-12 hidden">
+        <button
+          id="nav-toggle"
+          class="tooltip w-12 pl-2 pr-2 hover:bg-pink-900"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="Navigation"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M10 19l-7-7m0 0l7-7m-7 7h18"
-          />
-        </svg>
-        <span class="tooltiptext text-sm">Back in history</span>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            />
+          </svg>
+          <span class="tooltiptext text-sm">Back in history</span>
+        </button>
       </div>
-      <div class="w-12 hover:bg-pink-900 pt-2 pl-3">
-      <button
-        id="nav-toggle"
-        class="tooltip text-first w-12 "
-        aria-haspopup="true"
-        aria-expanded="false"
-        aria-controls="menu"
-        aria-label="Navigation"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="white"
+      <div class="w-12 hidden sm:block">
+        <button
+          id="nav-toggle"
+          class="tooltip text-first w-12 hover:bg-pink-900 pt-2 pl-2"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="Navigation"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M14 5l7 7m0 0l-7 7m7-7H3"
-          />
-        </svg>
-        <span class="tooltiptext text-sm">Forward in history</span>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+          <span class="tooltiptext text-sm">Forward in history</span>
+        </button>
       </div>
-      <div class="w-12 p-2 pl-3 hover:bg-pink-900">
-      <button
-        id="nav-toggle"
-        class="tooltip text-first w-12"
-        aria-haspopup="true"
-        aria-expanded="false"
-        aria-controls="menu"
-        aria-label="Navigation"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="white"
+      <div class="w-12 p-2 pl-3 hidden md:block hover:bg-pink-900">
+        <button
+          id="nav-toggle"
+          class="tooltip text-first w-12"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="Navigation"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-        <span class="tooltiptext text-sm">History</span>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <span class="tooltiptext text-sm">History</span>
+        </button>
       </div>
     </div>
-    <div class="flex-none flex text-white">
+    <div class="flex w-1/2 justify-center text-white mb:flex hidden">
       <button class="tooltip">
         <input
           class="
@@ -171,7 +171,6 @@
             px-4
             pr-8
             rounded
-            w-96
             text-sm
             focus:outline-none
             hover:bg-pink-900
@@ -181,7 +180,17 @@
           placeholder="Search NGP"
         />
         <svg
-          class="text-white-600 inline z-999 absolute top-3 right-3 h-4 w-4 fill-current"
+          class="
+            text-white-600
+            inline
+            z-999
+            absolute
+            top-3
+            right-3
+            h-4
+            w-4
+            fill-current
+          "
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           version="1.1"
@@ -201,31 +210,33 @@
         <span class="tooltiptext text-sm">Search NGP</span>
       </button>
     </div>
-    <div class="interrogation flex-1 flex">
-      <button
-        id="nav-toggle"
-        class="w-12 pl-3 tooltip"
-        aria-haspopup="true"
-        aria-expanded="false"
-        aria-controls="menu"
-        aria-label="Navigation"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="white"
+    <div class="interrogation md:w-1/3.3 flex">
+      <div class="hidden md:block pt-2">
+        <button
+          id="nav-toggle"
+          class="w-12 pl-3 tooltip"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-label="Navigation"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-        <span class="tooltiptext text-sm">Help</span>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <span class="tooltiptext text-sm">Help</span>
+        </button>
+      </div>
       <div class="relative inline-block ml-auto">
         <button
           class="tooltip mr-3 mt-1"
@@ -413,7 +424,10 @@
               border-b-2 border-gray
               hover:bg-blue-500 hover:text-white
             "
-            >Downloads <span class="text-gray-400 ml-20 hover:text-white">Ctrl+Shift+J</span></a
+            >Downloads
+            <span class="text-gray-400 ml-20 hover:text-white"
+              >Ctrl+Shift+J</span
+            ></a
           >
           <a
             href="#"
@@ -429,57 +443,59 @@
           >
         </div>
       </div>
-      <button class="tooltip w-12 h-10 pl-4 text-white hover:bg-pink-900">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-4 w-4"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M18 12H6"
-          />
-        </svg>
-        <span class="tooltiptext text-xs">Minimize</span>
-      </button>
-      <button class="tooltip w-12 h-10 pl-4 text-white hover:bg-pink-900">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-4 w-4"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-          />
-        </svg>
-        <span class="tooltiptext text-xs">Unmaximize</span>
-      </button>
-      <button class="tooltip w-12 h-10 pl-4 text-white hover:bg-red-600">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-4 w-4"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-        <span class="tooltiptext text-xs">Close</span>
-      </button>
+      <div class="contents">
+        <button class="tooltip w-12 h-10 pl-4 text-white hover:bg-pink-900">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M18 12H6"
+            />
+          </svg>
+          <span class="tooltiptext text-xs">Minimize</span>
+        </button>
+        <button class="tooltip w-12 h-10 pl-4 text-white hover:bg-pink-900">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+            />
+          </svg>
+          <span class="tooltiptext text-xs">Unmaximize</span>
+        </button>
+        <button class="tooltip w-12 h-10 pl-4 pr-8 text-white hover:bg-red-600">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+          <span class="tooltiptext text-xs">Close</span>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -507,7 +523,7 @@ export default {
 }
 
 .search-bar {
-  width: 680px;
+  width: 47vw;
   background: #924f96;
 }
 .tooltip {

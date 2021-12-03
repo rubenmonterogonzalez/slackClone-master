@@ -1,5 +1,5 @@
 <template>
-    <div class="chatscreen absolute top-32 left-64 w-10/12 h-screen">
+    <div class="chatscreen absolute top-32 left-64 w-auto h-screen">
         {{ parties }}
     </div>
 </template>

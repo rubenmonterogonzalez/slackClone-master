@@ -11,7 +11,7 @@ import Chat from "./components/Chat.vue";
   <DoubleNavbar />
   <Sidebar />
   <ChatScreen />
-  <Chat />
+  <Chat /> 
 </template>
 
 <style></style>

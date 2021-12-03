@@ -1,15 +1,14 @@
 <template>
-  <div class="flex-col md:flex-row md:min-h-screen w-full">
+  <div class="min-h-screen w-64">
     <div
       class="
         sidebar
-        flex flex-col
-        w-full
-        md:w-64
-        flex-shrink-0
+        flex flex-col flex-shrink-0
         border-t-2 border-white
         fixed
         z-1
+        mb:flex hidden
+        
       "
     >
       <div
@@ -254,7 +253,7 @@
         </a>
       </div>
       <div class="overflow-y-scroll overscroll-y-auto overflow-x-hidden">
-        <div class="md:block pb-4 md:pb-0">
+        <div class="block pb-0">
           <a
             class="
               flex
@@ -626,7 +625,7 @@
             </div>
           </div>
         </div>
-        <div class="flex-grow md:block pb-4 md:pb-0">
+        <div class="flex-grow block pb-0">
           <div class="channels">
             <a
               @click="dropdownOpen3 = !dropdownOpen3"
@@ -658,39 +657,38 @@
               >Channels
               <div class="channel_icons inline-flex ml-auto">
                 <button class="tooltip">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 mr-2 hover:bg-pink-900"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-                  />
-                </svg>
-                <span class="tooltiptext text-sm">Section options</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-2 hover:bg-pink-900"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+                    />
+                  </svg>
+                  <span class="tooltiptext text-sm">Section options</span>
                 </button>
                 <button class="tooltip">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 hover:bg-pink-900"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                  />
-                </svg>
-                <span class="tooltiptext text-sm">Add channels</span>
-
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 hover:bg-pink-900"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                    />
+                  </svg>
+                  <span class="tooltiptext text-sm">Add channels</span>
                 </button>
               </div>
             </a>
@@ -1036,49 +1034,42 @@
           </div>
         </div>
         <div
-            v-show="dropdownOpen5"
-            class="
-              absolute
-              w-52
-              left-14
-              rounded-lg
-              bg-white
-              z-20
-            "
-          >
-            <div class="">
-              <a
-                class="
-                  flex
-                  block
-                  px-4
-                  mt-3
-                  pb-1
-                  text-base text-gray-700
-                  hover:bg-blue-500 hover:text-white
-                "
-                href="#"
-              >
-                <span class="ml-2">Create a new channel</span>
-              </a>
-            </div>
-            <div class="">
-              <a
-                class="
-                  flex
-                  block
-                  px-4
-                  mb-3
-                  pb-1
-                  text-base text-gray-700
-                  hover:bg-blue-500 hover:text-white
-                "
-                href="#"
-              >
-                <span class="ml-2">Browse all channels</span>
-              </a>
-            </div>
-            </div>
+          v-show="dropdownOpen5"
+          class="absolute w-52 left-14 rounded-lg bg-white z-20"
+        >
+          <div class="">
+            <a
+              class="
+                flex
+                block
+                px-4
+                mt-3
+                pb-1
+                text-base text-gray-700
+                hover:bg-blue-500 hover:text-white
+              "
+              href="#"
+            >
+              <span class="ml-2">Create a new channel</span>
+            </a>
+          </div>
+          <div class="">
+            <a
+              class="
+                flex
+                block
+                px-4
+                mb-3
+                pb-1
+                text-base text-gray-700
+                hover:bg-blue-500 hover:text-white
+              "
+              href="#"
+            >
+              <span class="ml-2">Browse all channels</span>
+            </a>
+          </div>
+        </div>
         <div class="flex-grow md:block mt-3 pb-4 md:pb-0">
           <div class="channels">
             <a
@@ -1476,49 +1467,42 @@
           </div>
         </div>
         <div
-            v-show="dropdownOpen6"
-            class="
-              absolute
-              w-52
-              left-14
-              rounded-lg
-              bg-white
-              z-20
-            "
-          >
-            <div class="">
-              <a
-                class="
-                  flex
-                  block
-                  px-4
-                  mt-3
-                  pb-1
-                  text-base text-gray-700
-                  hover:bg-blue-500 hover:text-white
-                "
-                href="#"
-              >
-                <span class="ml-2">Invite people</span>
-              </a>
-            </div>
-            <div class="">
-              <a
-                class="
-                  flex
-                  block
-                  px-4
-                  mb-3
-                  pb-1
-                  text-base text-gray-700
-                  hover:bg-blue-500 hover:text-white
-                "
-                href="#"
-              >
-                <span class="ml-2">New conversation</span>
-              </a>
-            </div>
-            </div>
+          v-show="dropdownOpen6"
+          class="absolute w-52 left-14 rounded-lg bg-white z-20"
+        >
+          <div class="">
+            <a
+              class="
+                flex
+                block
+                px-4
+                mt-3
+                pb-1
+                text-base text-gray-700
+                hover:bg-blue-500 hover:text-white
+              "
+              href="#"
+            >
+              <span class="ml-2">Invite people</span>
+            </a>
+          </div>
+          <div class="">
+            <a
+              class="
+                flex
+                block
+                px-4
+                mb-3
+                pb-1
+                text-base text-gray-700
+                hover:bg-blue-500 hover:text-white
+              "
+              href="#"
+            >
+              <span class="ml-2">New conversation</span>
+            </a>
+          </div>
+        </div>
         <div class="h-12"></div>
       </div>
       <div
@@ -1621,8 +1605,6 @@ export default {
     const dropdownOpen5 = ref(false);
     const dropdownOpen6 = ref(false);
 
-
-
     return {
       dropdownOpen,
       dropdownOpen2,
@@ -1630,7 +1612,6 @@ export default {
       dropdownOpen4,
       dropdownOpen5,
       dropdownOpen6,
-
     };
   },
 };
